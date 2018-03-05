@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="Oberon.ppr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="14" Y="17"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="win\modWinMain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="25"/>
+        <CursorPos X="4" Y="44"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="C:\codetyphon\typhon\components\pl_ExControls\source\TplMemoUnit.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="10"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="C:\codetyphon\typhon\components\pl_KControls\source\kmemo.pas"/>
+        <UnitName Value="KMemo"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="253"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="27" HistoryIndex="26">
+      <Position1>
+        <Filename Value="win\modWinMain.pas"/>
+        <Caret Line="17" Column="19"/>
+      </Position1>
+      <Position2>
+        <Filename Value="win\modWinMain.pas"/>
+        <Caret Line="33" Column="4" TopLine="7"/>
+      </Position2>
+      <Position3>
+        <Filename Value="win\modWinMain.pas"/>
+        <Caret Line="28" Column="4"/>
+      </Position3>
+      <Position4>
+        <Filename Value="win\modWinMain.pas"/>
+        <Caret Line="27" Column="4"/>
+      </Position4>
+      <Position5>
+        <Filename Value="win\modWinMain.pas"/>
+        <Caret Line="28" Column="4"/>
+      </Position5>
+      <Position6>
+        <Filename Value="win\modWinMain.pas"/>
+        <Caret Line="29" Column="4"/>
+      </Position6>
+      <Position7>
+        <Filename Value="win\modWinMain.pas"/>
+        <Caret Line="28" Column="4"/>
+      </Position7>
+      <Position8>
+        <Filename Value="win\modWinMain.pas"/>
+        <Caret Line="29" Column="4"/>
+      </Position8>
+      <Position9>
+        <Filename Value="win\modWinMain.pas"/>
+        <Caret Line="30" Column="4"/>
+      </Position9>
+      <Position10>
+        <Filename Value="win\modWinMain.pas"/>
+        <Caret Line="36" Column="15" TopLine="7"/>
+      </Position10>
+      <Position11>
+        <Filename Value="win\modWinMain.pas"/>
+        <Caret Line="38" Column="15" TopLine="8"/>
+      </Position11>
+      <Position12>
+        <Filename Value="win\modWinMain.pas"/>
+        <Caret Line="37" Column="15" TopLine="8"/>
+      </Position12>
+      <Position13>
+        <Filename Value="win\modWinMain.pas"/>
+        <Caret Line="39" Column="15" TopLine="9"/>
+      </Position13>
+      <Position14>
+        <Filename Value="win\modWinMain.pas"/>
+        <Caret Line="40" Column="15" TopLine="10"/>
+      </Position14>
+      <Position15>
+        <Filename Value="win\modWinMain.pas"/>
+        <Caret Line="41" Column="15" TopLine="11"/>
+      </Position15>
+      <Position16>
+        <Filename Value="win\modWinMain.pas"/>
+        <Caret Line="42" Column="15" TopLine="12"/>
+      </Position16>
+      <Position17>
+        <Filename Value="win\modWinMain.pas"/>
+        <Caret Line="41" Column="15" TopLine="12"/>
+      </Position17>
+      <Position18>
+        <Filename Value="win\modWinMain.pas"/>
+        <Caret Line="40" Column="15" TopLine="12"/>
+      </Position18>
+      <Position19>
+        <Filename Value="win\modWinMain.pas"/>
+        <Caret Line="39" Column="15" TopLine="12"/>
+      </Position19>
+      <Position20>
+        <Filename Value="win\modWinMain.pas"/>
+        <Caret Line="40" Column="15" TopLine="12"/>
+      </Position20>
+      <Position21>
+        <Filename Value="win\modWinMain.pas"/>
+        <Caret Line="39" Column="15" TopLine="12"/>
+      </Position21>
+      <Position22>
+        <Filename Value="win\modWinMain.pas"/>
+        <Caret Line="40" Column="15" TopLine="12"/>
+      </Position22>
+      <Position23>
+        <Filename Value="win\modWinMain.pas"/>
+        <Caret Line="41" Column="15" TopLine="12"/>
+      </Position23>
+      <Position24>
+        <Filename Value="win\modWinMain.pas"/>
+        <Caret Line="40" Column="15" TopLine="12"/>
+      </Position24>
+      <Position25>
+        <Filename Value="win\modWinMain.pas"/>
+        <Caret Line="41" Column="15" TopLine="12"/>
+      </Position25>
+      <Position26>
+        <Filename Value="win\modWinMain.pas"/>
+        <Caret Line="51" Column="5" TopLine="30"/>
+      </Position26>
+      <Position27>
+        <Filename Value="win\modWinMain.pas"/>
+        <Caret Line="50" Column="4" TopLine="29"/>
+      </Position27>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

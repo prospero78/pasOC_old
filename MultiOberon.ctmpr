@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <MultiProject FileVersion="1">
+    <Elements Count="1">
+      <Element0 FileName="Oberon.ctpr">
+        <BuildModes Count="1"/>
+        <Mode1 Name="Default"/>
+      </Element0>
+    </Elements>
+  </MultiProject>
+</CONFIG>
