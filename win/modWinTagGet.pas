@@ -40,6 +40,11 @@ IMPLEMENTATION
 
 { TwinTagGet }
 
+procedure IfLitera_True;
+begin
+
+END;
+
 PROCEDURE TwinTagGet.btnLitera_NextClick(Sender: TObject);
   VAR
      len: integer;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <Compiler Value="C:\codetyphon\fpc\fpc64\bin\x86_64-win64\fpc.exe" Date="1281577041"/>
-  <Params Value=" -Twin64 -Px86_64 -CpATHLON64 -MObjFPC -Scaghi -CX -WR -CirotR -O1 -XX -WG -l -vewnhibq -FiD:\coding\github.com\pasOC\lib\x86_64-win64 -FuD:\coding\github.com\pasOC\win -FuC:\codetyphon\typhon\components\BaseSynedit\units\x86_64-win64\win32 -FuC:\codetyphon\typhon\lcl\units\x86_64-win64\win32 -FuC:\codetyphon\typhon\lcl\units\x86_64-win64 -FuC:\codetyphon\typhon\components\BaseUtils\lib\x86_64-win64 -FuC:\codetyphon\typhon\packager\units\x86_64-win64 -FuD:\coding\github.com\pasOC\ -FUD:\coding\github.com\pasOC\lib\x86_64-win64\ -dLCL -dLCLwin32 Oberon.ppr"/>
+  <Params Value=" -Twin64 -Px86_64 -CpATHLON64 -MObjFPC -Scaghi -CX -WR -CirotR -O1 -XX -WG -l -vewnhibq -FiD:\coding\github.com\pasOC\lib\x86_64-win64 -FuD:\coding\github.com\pasOC\win -FuD:\coding\github.com\pasOC\mod -FuC:\codetyphon\typhon\components\BaseSynedit\units\x86_64-win64\win32 -FuC:\codetyphon\typhon\lcl\units\x86_64-win64\win32 -FuC:\codetyphon\typhon\lcl\units\x86_64-win64 -FuC:\codetyphon\typhon\components\BaseUtils\lib\x86_64-win64 -FuC:\codetyphon\typhon\packager\units\x86_64-win64 -FuD:\coding\github.com\pasOC\ -FUD:\coding\github.com\pasOC\lib\x86_64-win64\ -dLCL -dLCLwin32 Oberon.ppr"/>
 </CONFIG>
