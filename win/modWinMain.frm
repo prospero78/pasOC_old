@@ -1,26 +1,27 @@
-object Form1: TForm1
-  Left = 547
-  Height = 321
-  Top = 149
-  Width = 475
+object winMain: TwinMain
+  Left = 497
+  Height = 337
+  Top = 192
+  Width = 482
   Caption = 'Oberon-07'
-  ClientHeight = 321
-  ClientWidth = 475
+  ClientHeight = 317
+  ClientWidth = 482
+  Menu = mnuBar
   LCLVersion = '6.4'
   object GroupBox1: TGroupBox
     Left = 0
     Height = 52
-    Top = 269
-    Width = 475
+    Top = 265
+    Width = 482
     Align = alBottom
     Caption = 'Управление'
     ClientHeight = 32
-    ClientWidth = 471
+    ClientWidth = 478
     DockSite = True
     TabOrder = 0
     object btnExit: TButton
       Cursor = crHandPoint
-      Left = 411
+      Left = 418
       Height = 32
       Top = 0
       Width = 60
@@ -43,20 +44,20 @@ object Form1: TForm1
   object Panel1: TPanel
     Left = 0
     Height = 251
-    Top = 18
-    Width = 475
+    Top = 14
+    Width = 482
     Align = alBottom
     Anchors = [akBottom]
     Caption = 'Panel1'
     ClientHeight = 251
-    ClientWidth = 475
+    ClientWidth = 482
     TabOrder = 1
     object GroupBox2: TGroupBox
       AnchorSideRight.Control = Panel2
       Left = 5
       Height = 241
       Top = 5
-      Width = 207
+      Width = 210
       Align = alLeft
       Anchors = [akTop, akLeft, akRight, akBottom]
       BorderSpacing.Left = 1
@@ -66,16 +67,16 @@ object Form1: TForm1
       BorderSpacing.Around = 3
       Caption = 'Исходник'
       ClientHeight = 221
-      ClientWidth = 203
+      ClientWidth = 206
       TabOrder = 0
       object txtSource: TMemo
         Left = 0
         Height = 221
         Top = 0
-        Width = 203
+        Width = 206
         Align = alClient
         Lines.Strings = (
-          '1'
+          '1+1'
         )
         ScrollBars = ssAutoBoth
         TabOrder = 0
@@ -84,10 +85,10 @@ object Form1: TForm1
     object GroupBox3: TGroupBox
       AnchorSideLeft.Control = Panel2
       AnchorSideLeft.Side = asrBottom
-      Left = 248
+      Left = 251
       Height = 241
       Top = 5
-      Width = 222
+      Width = 226
       Align = alRight
       Anchors = [akTop, akLeft, akRight, akBottom]
       BorderSpacing.Left = 1
@@ -97,13 +98,13 @@ object Form1: TForm1
       BorderSpacing.Around = 3
       Caption = 'Выход'
       ClientHeight = 221
-      ClientWidth = 218
+      ClientWidth = 222
       TabOrder = 1
       object Memo1: TMemo
         Left = 0
         Height = 221
         Top = 0
-        Width = 218
+        Width = 222
         Align = alClient
         Lines.Strings = (
           'Memo1'
@@ -118,7 +119,7 @@ object Form1: TForm1
       AnchorSideRight.Control = GroupBox3
       AnchorSideBottom.Control = Panel1
       AnchorSideBottom.Side = asrBottom
-      Left = 216
+      Left = 219
       Height = 241
       Top = 5
       Width = 28
@@ -130,6 +131,20 @@ object Form1: TForm1
       BorderSpacing.Around = 3
       Caption = 'Panel2'
       TabOrder = 2
+    end
+  end
+  object mnuBar: TMainMenu
+    Left = 424
+    Top = 224
+    object MenuItem1: TMenuItem
+      Caption = 'Файл'
+      object MenuItem2: TMenuItem
+        Caption = '-'
+      end
+      object MenuItem3: TMenuItem
+        Caption = 'Выход'
+        OnClick = MenuItem3Click
+      end
     end
   end
 end

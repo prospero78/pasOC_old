@@ -19,7 +19,7 @@
     <VersionInfo>
       <UseVersionInfo Value="True"/>
       <AutoIncrementBuild Value="True"/>
-      <BuildNr Value="2"/>
+      <BuildNr Value="3"/>
       <Language Value="0419"/>
       <CharSet Value="04B0"/>
       <StringTable Comments="Oberon compiler for Oberon-07" CompanyName="KBK Techniks ltd." LegalCopyright="BSD-2" LegalTrademarks="KBK Techniks ltd."/>
@@ -47,7 +47,7 @@
       <Unit1>
         <Filename Value="win\modWinMain.pas"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="Form1"/>
+        <ComponentName Value="winMain"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
       </Unit1>
@@ -72,6 +72,12 @@
     <CodeGeneration>
       <SmartLinkUnit Value="True"/>
       <RelocatableUnit Value="True"/>
+      <Checks>
+        <IOChecks Value="True"/>
+        <RangeChecks Value="True"/>
+        <OverflowChecks Value="True"/>
+        <StackChecks Value="True"/>
+      </Checks>
       <TargetProcessor Value="ATHLON64"/>
       <TargetCPU Value="x86_64"/>
       <TargetOS Value="win64"/>
@@ -80,6 +86,7 @@
       <Debugging>
         <GenerateDebugInfo Value="False"/>
         <UseLineInfoUnit Value="False"/>
+        <TrashVariables Value="True"/>
       </Debugging>
       <LinkSmart Value="True"/>
       <Options>

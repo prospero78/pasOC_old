@@ -5,23 +5,30 @@ UNIT modWinMain;
 INTERFACE
 
 USES
-   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, StdCtrls;
+   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, StdCtrls,
+   Menus, ActnList;
 
 TYPE
 
-   { TForm1 }
+   { TwinMain }
 
-   TForm1 = CLASS(TForm)
+   TwinMain = CLASS(TForm)
       btnCompile: TButton;
-      btnExit:   TButton;
-      GroupBox1: TGroupBox;
-      GroupBox2: TGroupBox;
-      GroupBox3: TGroupBox;
-      Memo1:     TMemo;
-      Panel1:    TPanel;
-      Panel2:    TPanel;
-      txtSource: TMemo;
+      btnExit:    TButton;
+      GroupBox1:  TGroupBox;
+      GroupBox2:  TGroupBox;
+      GroupBox3:  TGroupBox;
+      Memo1:      TMemo;
+      MenuItem1:  TMenuItem;
+      MenuItem2:  TMenuItem;
+      MenuItem3:  TMenuItem;
+      mnuBar:     TMainMenu;
+      Panel1:     TPanel;
+      Panel2:     TPanel;
+      txtSource:  TMemo;
       PROCEDURE btnExitClick(Sender: TObject);
+      PROCEDURE App_Close();
+      PROCEDURE MenuItem3Click(Sender: TObject);
    PRIVATE
 
    PUBLIC
@@ -29,18 +36,28 @@ TYPE
    END;
 
 VAR
-   Form1: TForm1;
+   winMain: TwinMain;
 
 IMPLEMENTATION
 
 {$R *.frm}
 
-{ TForm1 }
+{ TwinMain }
+PROCEDURE tWinMain.App_Close();
+BEGIN
+    self.Close;
+END;
 
-PROCEDURE TForm1.btnExitClick(Sender: TObject);
+PROCEDURE TwinMain.MenuItem3Click(Sender: TObject);
+BEGIN
+   self.App_Close;
+end;
+
+PROCEDURE TwinMain.btnExitClick(Sender: TObject);
    BEGIN
-      self.Close;
+      self.App_Close;
    END;
+
 
 END.
 
