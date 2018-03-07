@@ -9,6 +9,9 @@ As a complete task, it is planned to create a complete Oberon-07 compiler. As a 
 # Requirements
 
 Compiler - FreePascal 3.0
+
 IDE - CodeTyphon 6.40
+
 Operating system - any
+
 License - BSD-2
