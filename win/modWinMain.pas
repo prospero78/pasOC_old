@@ -72,6 +72,7 @@ PROCEDURE TwinMain.MenuItem5Click(Sender: TObject);
 PROCEDURE TwinMain.mnuTagGetClick(Sender: TObject);
    BEGIN
       winTagGet.Show;
+      strSource := winMain.txtSource.Lines.Text;
    END;
 
 PROCEDURE TwinMain.tmrSecundTimer(Sender: TObject);

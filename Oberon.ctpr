@@ -19,7 +19,7 @@
     <VersionInfo>
       <UseVersionInfo Value="True"/>
       <AutoIncrementBuild Value="True"/>
-      <BuildNr Value="6"/>
+      <BuildNr Value="9"/>
       <Language Value="0419"/>
       <CharSet Value="04B0"/>
       <StringTable Comments="Oberon compiler for Oberon-07" CompanyName="KBK Techniks ltd." LegalCopyright="BSD-2" LegalTrademarks="KBK Techniks ltd."/>
@@ -87,6 +87,7 @@
         <OverflowChecks Value="True"/>
         <StackChecks Value="True"/>
       </Checks>
+      <VerifyObjMethodCallValidity Value="True"/>
       <TargetProcessor Value="ATHLON64"/>
       <TargetCPU Value="x86_64"/>
       <TargetOS Value="win64"/>
@@ -95,7 +96,6 @@
       <Debugging>
         <GenerateDebugInfo Value="False"/>
         <UseLineInfoUnit Value="False"/>
-        <TrashVariables Value="True"/>
       </Debugging>
       <LinkSmart Value="True"/>
       <Options>

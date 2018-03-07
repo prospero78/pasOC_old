@@ -85,7 +85,7 @@ object winMain: TwinMain
         Width = 293
         Align = alClient
         Lines.Strings = (
-          '1+1'
+          'a := 0;'
         )
         ScrollBars = ssAutoBoth
         TabOrder = 0
