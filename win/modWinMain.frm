@@ -184,5 +184,24 @@ object winMain: TwinMain
         OnClick = MenuItem3Click
       end
     end
+    object MenuItem4: TMenuItem
+      Caption = 'Инструменты'
+      object MenuItem5: TMenuItem
+        Caption = 'Калькуятор'
+        OnClick = MenuItem5Click
+      end
+    end
+  end
+  object dlgCalc: TCalculatorDialog
+    ColorBtnDigits = clBlack
+    ColorBtnMemory = clNavy
+    ColorBtnOk = clGreen
+    ColorBtnCancel = clMaroon
+    ColorBtnClear = clRed
+    ColorBtnOthers = clBlack
+    ColorDisplayText = clBlack
+    ColorDisplayBack = clWhite
+    Left = 480
+    Top = 336
   end
 end

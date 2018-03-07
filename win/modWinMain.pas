@@ -6,7 +6,7 @@ INTERFACE
 
 USES
    Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, StdCtrls,
-   Menus, ActnList, ComCtrls;
+   Menus, ActnList, ComCtrls, ExtDlgs, SynEdit;
 
 TYPE
 
@@ -15,6 +15,7 @@ TYPE
    TwinMain = CLASS(TForm)
       btnCompile: TButton;
       btnExit:    TButton;
+      dlgCalc: TCalculatorDialog;
       GroupBox1:  TGroupBox;
       GroupBox2:  TGroupBox;
       GroupBox3:  TGroupBox;
@@ -22,6 +23,8 @@ TYPE
       MenuItem1:  TMenuItem;
       MenuItem2:  TMenuItem;
       MenuItem3:  TMenuItem;
+      MenuItem4: TMenuItem;
+      MenuItem5: TMenuItem;
       mnuBar:     TMainMenu;
       Panel1:     TPanel;
       Panel2:     TPanel;
@@ -30,6 +33,7 @@ TYPE
       PROCEDURE btnExitClick(Sender: TObject);
       PROCEDURE App_Close();
       PROCEDURE MenuItem3Click(Sender: TObject);
+      PROCEDURE MenuItem5Click(Sender: TObject);
    PRIVATE
 
    PUBLIC
@@ -52,6 +56,11 @@ END;
 PROCEDURE TwinMain.MenuItem3Click(Sender: TObject);
 BEGIN
    self.App_Close;
+end;
+
+PROCEDURE TwinMain.MenuItem5Click(Sender: TObject);
+BEGIN
+   self.dlgCalc;
 end;
 
 PROCEDURE TwinMain.btnExitClick(Sender: TObject);
