@@ -1,5 +1,5 @@
-*.o
-*.obj
-*.frm
 *.res
+*.obj
+*.o
 *.ppu
+*.frm

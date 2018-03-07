@@ -19,7 +19,7 @@
     <VersionInfo>
       <UseVersionInfo Value="True"/>
       <AutoIncrementBuild Value="True"/>
-      <BuildNr Value="5"/>
+      <BuildNr Value="6"/>
       <Language Value="0419"/>
       <CharSet Value="04B0"/>
       <StringTable Comments="Oberon compiler for Oberon-07" CompanyName="KBK Techniks ltd." LegalCopyright="BSD-2" LegalTrademarks="KBK Techniks ltd."/>
@@ -42,7 +42,7 @@
         <PackageName Value="adLCL"/>
       </Item2>
     </RequiredPackages>
-    <Units Count="2">
+    <Units Count="3">
       <Unit0>
         <Filename Value="Oberon.ppr"/>
         <IsPartOfProject Value="True"/>
@@ -54,6 +54,12 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
       </Unit1>
+      <Unit2>
+        <Filename Value="win\modWinTagGet.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="winTagGet"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit2>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
