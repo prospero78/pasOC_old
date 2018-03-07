@@ -1,38 +1,48 @@
 object winMain: TwinMain
   Left = 497
-  Height = 337
+  Height = 492
   Top = 192
-  Width = 482
+  Width = 552
   Caption = 'Oberon-07'
-  ClientHeight = 317
-  ClientWidth = 482
+  ClientHeight = 472
+  ClientWidth = 552
   Menu = mnuBar
   LCLVersion = '6.4'
   object GroupBox1: TGroupBox
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Panel1
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideBottom.Control = stbMain
     Left = 0
-    Height = 52
-    Top = 265
-    Width = 482
+    Height = 49
+    Top = 400
+    Width = 552
     Align = alBottom
     Caption = 'Управление'
-    ClientHeight = 32
-    ClientWidth = 478
+    ClientHeight = 29
+    ClientWidth = 548
     DockSite = True
     TabOrder = 0
     object btnExit: TButton
+      AnchorSideLeft.Control = GroupBox1
       Cursor = crHandPoint
-      Left = 418
-      Height = 32
+      Left = 488
+      Height = 29
       Top = 0
       Width = 60
       Align = alRight
+      AutoSize = True
       Caption = 'Выход'
       OnClick = btnExitClick
       TabOrder = 0
     end
     object btnCompile: TButton
+      AnchorSideRight.Control = GroupBox1
+      AnchorSideRight.Side = asrBottom
+      AnchorSideBottom.Side = asrBottom
       Left = 0
-      Height = 32
+      Height = 29
       Top = 0
       Width = 114
       Align = alLeft
@@ -43,21 +53,20 @@ object winMain: TwinMain
   end
   object Panel1: TPanel
     Left = 0
-    Height = 251
-    Top = 14
-    Width = 482
-    Align = alBottom
-    Anchors = [akBottom]
+    Height = 400
+    Top = 0
+    Width = 552
+    Align = alClient
     Caption = 'Panel1'
-    ClientHeight = 251
-    ClientWidth = 482
+    ClientHeight = 400
+    ClientWidth = 552
     TabOrder = 1
     object GroupBox2: TGroupBox
       AnchorSideRight.Control = Panel2
       Left = 5
-      Height = 241
+      Height = 390
       Top = 5
-      Width = 210
+      Width = 242
       Align = alLeft
       Anchors = [akTop, akLeft, akRight, akBottom]
       BorderSpacing.Left = 1
@@ -66,14 +75,14 @@ object winMain: TwinMain
       BorderSpacing.Bottom = 1
       BorderSpacing.Around = 3
       Caption = 'Исходник'
-      ClientHeight = 221
-      ClientWidth = 206
+      ClientHeight = 370
+      ClientWidth = 238
       TabOrder = 0
       object txtSource: TMemo
         Left = 0
-        Height = 221
+        Height = 370
         Top = 0
-        Width = 206
+        Width = 238
         Align = alClient
         Lines.Strings = (
           '1+1'
@@ -85,10 +94,10 @@ object winMain: TwinMain
     object GroupBox3: TGroupBox
       AnchorSideLeft.Control = Panel2
       AnchorSideLeft.Side = asrBottom
-      Left = 251
-      Height = 241
+      Left = 283
+      Height = 390
       Top = 5
-      Width = 226
+      Width = 264
       Align = alRight
       Anchors = [akTop, akLeft, akRight, akBottom]
       BorderSpacing.Left = 1
@@ -97,14 +106,14 @@ object winMain: TwinMain
       BorderSpacing.Bottom = 1
       BorderSpacing.Around = 3
       Caption = 'Выход'
-      ClientHeight = 221
-      ClientWidth = 222
+      ClientHeight = 370
+      ClientWidth = 260
       TabOrder = 1
       object Memo1: TMemo
         Left = 0
-        Height = 221
+        Height = 370
         Top = 0
-        Width = 222
+        Width = 260
         Align = alClient
         Lines.Strings = (
           'Memo1'
@@ -119,8 +128,8 @@ object winMain: TwinMain
       AnchorSideRight.Control = GroupBox3
       AnchorSideBottom.Control = Panel1
       AnchorSideBottom.Side = asrBottom
-      Left = 219
-      Height = 241
+      Left = 251
+      Height = 390
       Top = 5
       Width = 28
       Anchors = [akTop, akBottom]
@@ -132,6 +141,35 @@ object winMain: TwinMain
       Caption = 'Panel2'
       TabOrder = 2
     end
+  end
+  object stbMain: TStatusBar
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = GroupBox1
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 0
+    Height = 23
+    Top = 449
+    Width = 552
+    Panels = <    
+      item
+        Text = '2018-03-07'
+        Width = 70
+      end    
+      item
+        Text = '08-34'
+        Width = 40
+      end    
+      item
+        Width = 50
+      end    
+      item
+        Width = 50
+      end>
+    SimplePanel = False
   end
   object mnuBar: TMainMenu
     Left = 424

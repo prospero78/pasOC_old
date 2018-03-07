@@ -6,7 +6,7 @@ INTERFACE
 
 USES
    Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, StdCtrls,
-   Menus, ActnList;
+   Menus, ActnList, ComCtrls;
 
 TYPE
 
@@ -25,6 +25,7 @@ TYPE
       mnuBar:     TMainMenu;
       Panel1:     TPanel;
       Panel2:     TPanel;
+      stbMain: TStatusBar;
       txtSource:  TMemo;
       PROCEDURE btnExitClick(Sender: TObject);
       PROCEDURE App_Close();
