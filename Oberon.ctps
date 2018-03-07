@@ -11,7 +11,7 @@
         <EditorIndex Value="4"/>
         <TopLine Value="4"/>
         <CursorPos X="74" Y="18"/>
-        <UsageCount Value="39"/>
+        <UsageCount Value="41"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -22,7 +22,7 @@
         <ResourceBaseClass Value="Form"/>
         <TopLine Value="68"/>
         <CursorPos X="27" Y="79"/>
-        <UsageCount Value="39"/>
+        <UsageCount Value="41"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -30,14 +30,14 @@
         <Filename Value="C:\codetyphon\typhon\components\pl_ExControls\source\TplMemoUnit.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="10"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="8"/>
       </Unit2>
       <Unit3>
         <Filename Value="C:\codetyphon\typhon\components\pl_KControls\source\kmemo.pas"/>
         <UnitName Value="KMemo"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="253"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="8"/>
       </Unit3>
       <Unit4>
         <Filename Value="C:\codetyphon\typhon\lcl\forms.pp"/>
@@ -45,7 +45,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="615"/>
         <CursorPos X="15" Y="629"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="8"/>
       </Unit4>
       <Unit5>
         <Filename Value="win\modWinTagGet.pas"/>
@@ -55,7 +55,7 @@
         <EditorIndex Value="1"/>
         <TopLine Value="19"/>
         <CursorPos X="24" Y="43"/>
-        <UsageCount Value="23"/>
+        <UsageCount Value="25"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit5>
@@ -65,7 +65,7 @@
         <EditorIndex Value="2"/>
         <TopLine Value="16"/>
         <CursorPos X="24" Y="34"/>
-        <UsageCount Value="21"/>
+        <UsageCount Value="23"/>
         <Loaded Value="True"/>
       </Unit6>
       <Unit7>
@@ -73,132 +73,132 @@
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="3"/>
-        <TopLine Value="12"/>
-        <CursorPos X="26" Y="27"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="26"/>
+        <CursorPos X="13" Y="39"/>
+        <UsageCount Value="22"/>
         <Loaded Value="True"/>
       </Unit7>
     </Units>
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="win\modWinTagGet.pas"/>
-        <Caret TopLine="4"/>
+        <Caret Line="25" Column="22" TopLine="13"/>
       </Position1>
       <Position2>
         <Filename Value="win\modWinTagGet.pas"/>
-        <Caret Line="29" Column="4" TopLine="12"/>
+        <Caret Line="26" Column="22" TopLine="13"/>
       </Position2>
       <Position3>
         <Filename Value="win\modWinTagGet.pas"/>
-        <Caret Line="30" Column="4" TopLine="12"/>
+        <Caret Line="27" Column="22" TopLine="13"/>
       </Position3>
       <Position4>
         <Filename Value="win\modWinTagGet.pas"/>
-        <Caret Line="29" Column="4" TopLine="12"/>
+        <Caret Line="26" Column="22" TopLine="13"/>
       </Position4>
       <Position5>
-        <Filename Value="win\modWinMain.pas"/>
-        <Caret Line="79" Column="27" TopLine="68"/>
+        <Filename Value="win\modWinTagGet.pas"/>
+        <Caret Line="27" Column="22" TopLine="13"/>
       </Position5>
       <Position6>
         <Filename Value="win\modWinTagGet.pas"/>
-        <Caret Line="25" Column="22" TopLine="13"/>
+        <Caret Line="28" Column="22" TopLine="13"/>
       </Position6>
       <Position7>
         <Filename Value="win\modWinTagGet.pas"/>
-        <Caret Line="26" Column="22" TopLine="13"/>
+        <Caret Line="29" Column="22" TopLine="13"/>
       </Position7>
       <Position8>
         <Filename Value="win\modWinTagGet.pas"/>
-        <Caret Line="27" Column="22" TopLine="13"/>
+        <Caret Line="28" Column="22" TopLine="13"/>
       </Position8>
       <Position9>
         <Filename Value="win\modWinTagGet.pas"/>
-        <Caret Line="26" Column="22" TopLine="13"/>
+        <Caret Line="29" Column="22" TopLine="13"/>
       </Position9>
       <Position10>
         <Filename Value="win\modWinTagGet.pas"/>
-        <Caret Line="27" Column="22" TopLine="13"/>
+        <Caret Line="28" Column="22" TopLine="13"/>
       </Position10>
       <Position11>
         <Filename Value="win\modWinTagGet.pas"/>
-        <Caret Line="28" Column="22" TopLine="13"/>
+        <Caret Line="30" Column="22" TopLine="13"/>
       </Position11>
       <Position12>
         <Filename Value="win\modWinTagGet.pas"/>
-        <Caret Line="29" Column="22" TopLine="13"/>
+        <Caret Line="31" Column="20" TopLine="19"/>
       </Position12>
       <Position13>
         <Filename Value="win\modWinTagGet.pas"/>
-        <Caret Line="28" Column="22" TopLine="13"/>
+        <Caret Line="30" Column="15" TopLine="18"/>
       </Position13>
       <Position14>
         <Filename Value="win\modWinTagGet.pas"/>
-        <Caret Line="29" Column="22" TopLine="13"/>
+        <Caret Line="48" Column="30" TopLine="31"/>
       </Position14>
       <Position15>
         <Filename Value="win\modWinTagGet.pas"/>
-        <Caret Line="28" Column="22" TopLine="13"/>
+        <Caret Line="47" Column="8" TopLine="32"/>
       </Position15>
       <Position16>
         <Filename Value="win\modWinTagGet.pas"/>
-        <Caret Line="30" Column="22" TopLine="13"/>
+        <Caret Line="46" Column="23" TopLine="33"/>
       </Position16>
       <Position17>
         <Filename Value="win\modWinTagGet.pas"/>
-        <Caret Line="31" Column="20" TopLine="19"/>
+        <Caret Line="60" Column="19" TopLine="41"/>
       </Position17>
       <Position18>
         <Filename Value="win\modWinTagGet.pas"/>
-        <Caret Line="30" Column="15" TopLine="18"/>
+        <Caret Line="62" Column="4" TopLine="43"/>
       </Position18>
       <Position19>
         <Filename Value="win\modWinTagGet.pas"/>
-        <Caret Line="48" Column="30" TopLine="31"/>
+        <Caret Line="57" Column="4" TopLine="43"/>
       </Position19>
       <Position20>
         <Filename Value="win\modWinTagGet.pas"/>
-        <Caret Line="47" Column="8" TopLine="32"/>
+        <Caret Line="58" Column="4" TopLine="44"/>
       </Position20>
       <Position21>
         <Filename Value="win\modWinTagGet.pas"/>
-        <Caret Line="46" Column="23" TopLine="33"/>
+        <Caret Line="59" Column="4" TopLine="45"/>
       </Position21>
       <Position22>
-        <Filename Value="win\modWinTagGet.pas"/>
-        <Caret Line="60" Column="19" TopLine="41"/>
-      </Position22>
-      <Position23>
-        <Filename Value="win\modWinTagGet.pas"/>
-        <Caret Line="62" Column="4" TopLine="43"/>
-      </Position23>
-      <Position24>
-        <Filename Value="win\modWinTagGet.pas"/>
-        <Caret Line="57" Column="4" TopLine="43"/>
-      </Position24>
-      <Position25>
-        <Filename Value="win\modWinTagGet.pas"/>
-        <Caret Line="58" Column="4" TopLine="44"/>
-      </Position25>
-      <Position26>
-        <Filename Value="win\modWinTagGet.pas"/>
-        <Caret Line="59" Column="4" TopLine="45"/>
-      </Position26>
-      <Position27>
         <Filename Value="mod\modCoord.pas"/>
         <Caret Line="13" Column="9"/>
-      </Position27>
-      <Position28>
+      </Position22>
+      <Position23>
         <Filename Value="mod\modCoord.pas"/>
         <Caret Line="28" Column="20" TopLine="12"/>
+      </Position23>
+      <Position24>
+        <Filename Value="mod\modTag.pas"/>
+        <Caret Line="21" Column="3" TopLine="6"/>
+      </Position24>
+      <Position25>
+        <Filename Value="mod\modTag.pas"/>
+        <Caret Line="28" Column="6" TopLine="9"/>
+      </Position25>
+      <Position26>
+        <Filename Value="mod\modTag.pas"/>
+        <Caret Line="43" Column="6" TopLine="25"/>
+      </Position26>
+      <Position27>
+        <Filename Value="mod\modTag.pas"/>
+        <Caret Line="20" Column="33" TopLine="5"/>
+      </Position27>
+      <Position28>
+        <Filename Value="mod\modTag.pas"/>
+        <Caret Line="37" Column="31" TopLine="24"/>
       </Position28>
       <Position29>
         <Filename Value="mod\modTag.pas"/>
-        <Caret Line="21" Column="3" TopLine="6"/>
+        <Caret Line="20" Column="41" TopLine="6"/>
       </Position29>
       <Position30>
         <Filename Value="mod\modTag.pas"/>
-        <Caret Line="28" Column="6" TopLine="9"/>
+        <Caret Line="34" Column="33" TopLine="24"/>
       </Position30>
     </JumpHistory>
     <RunParams>
