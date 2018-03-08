@@ -18,6 +18,7 @@
     <VersionInfo>
       <UseVersionInfo Value="True"/>
       <AutoIncrementBuild Value="True"/>
+      <BuildNr Value="1"/>
       <Language Value="0419"/>
       <CharSet Value="04B0"/>
       <StringTable Comments="Builder AST for Oberon-07" CompanyName="KBK Technicks Ltd." FileDescription="Builder AST for Oberon-07" InternalName="AST.dll" LegalCopyright="KBK Technicks Ltd." LegalTrademarks="BSD-2" OriginalFilename="AST.dll" ProductName="Builder AST for Oberon-07"/>
@@ -32,11 +33,19 @@
       <FormatVersion Value="2"/>
       <Modes Count="0"/>
     </RunParams>
-    <Units Count="1">
+    <Units Count="3">
       <Unit0>
         <Filename Value="AST.ppr"/>
         <IsPartOfProject Value="True"/>
       </Unit0>
+      <Unit1>
+        <Filename Value="mod\modCoord.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="mod\modTag.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit2>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
@@ -47,6 +56,7 @@
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="mod"/>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Parsing>

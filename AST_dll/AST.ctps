@@ -4,17 +4,45 @@
     <PathDelim Value="\"/>
     <Version Value="11"/>
     <BuildModes Active="Default"/>
-    <Units Count="1">
+    <Units Count="4">
       <Unit0>
         <Filename Value="AST.ppr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <CursorPos X="30" Y="3"/>
+        <CursorPos Y="5"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit0>
+      <Unit1>
+        <Filename Value="mod\modCoord.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="81" Y="17"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\mod\modCoord.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="mod\modTag.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="5" Y="45"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit3>
     </Units>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory Count="2" HistoryIndex="1">
+      <Position1>
+        <Filename Value="mod\modCoord.pas"/>
+        <Caret Line="11" Column="19"/>
+      </Position1>
+      <Position2>
+        <Filename Value="mod\modTag.pas"/>
+      </Position2>
+    </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes Count="0" ActiveMode=""/>

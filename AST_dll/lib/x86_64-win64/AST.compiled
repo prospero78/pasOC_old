@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <Compiler Value="C:\codetyphon\fpc\fpc64\bin\x86_64-win64\fpc.exe" Date="1281577041"/>
-  <Params Value=" -Twin64 -Px86_64 -CpATHLON64 -MObjFPC -Scaghi -CX -WR -CirotR -O1 -g -gl -XX -l -vewnhipbq -FiD:\coding\github.com\pasOC\AST_dll\lib\x86_64-win64 -FuD:\coding\github.com\pasOC\AST_dll\ -FUD:\coding\github.com\pasOC\AST_dll\lib\x86_64-win64\ AST.ppr"/>
+  <Params Value=" -Twin64 -Px86_64 -CpATHLON64 -MObjFPC -Scaghi -CX -WR -CirotR -O1 -g -gl -XX -l -vewnhipbq -FiD:\coding\github.com\pasOC\AST_dll\lib\x86_64-win64 -FuD:\coding\github.com\pasOC\AST_dll\mod -FuD:\coding\github.com\pasOC\AST_dll\ -FUD:\coding\github.com\pasOC\AST_dll\lib\x86_64-win64\ AST.ppr"/>
 </CONFIG>
