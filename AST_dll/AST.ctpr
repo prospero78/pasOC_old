@@ -4,25 +4,23 @@
     <Version Value="11"/>
     <PathDelim Value="\"/>
     <General>
+      <Flags>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasTitleStatement Value="False"/>
+        <MainUnitHasScaledStatement Value="False"/>
+      </Flags>
       <SessionStorage Value="InProjectDir"/>
       <MainUnit Value="0"/>
-      <Title Value="Oberon"/>
-      <Scaled Value="True"/>
+      <Title Value="AST"/>
+      <UseAppBundle Value="False"/>
       <ResourceType Value="res"/>
-      <UseXPManifest Value="True"/>
-      <XPManifest>
-        <DpiAware Value="True"/>
-        <TextDesc Value="Oberon compiler"/>
-      </XPManifest>
-      <Icon Value="0"/>
     </General>
     <VersionInfo>
       <UseVersionInfo Value="True"/>
       <AutoIncrementBuild Value="True"/>
-      <BuildNr Value="13"/>
       <Language Value="0419"/>
       <CharSet Value="04B0"/>
-      <StringTable Comments="Oberon compiler for Oberon-07" CompanyName="KBK Techniks ltd." LegalCopyright="BSD-2" LegalTrademarks="KBK Techniks ltd."/>
+      <StringTable Comments="Builder AST for Oberon-07" CompanyName="KBK Technicks Ltd." FileDescription="Builder AST for Oberon-07" InternalName="AST.dll" LegalCopyright="KBK Technicks Ltd." LegalTrademarks="BSD-2" OriginalFilename="AST.dll" ProductName="Builder AST for Oberon-07"/>
     </VersionInfo>
     <BuildModes Count="1">
       <Item1 Name="Default" Default="True"/>
@@ -34,52 +32,21 @@
       <FormatVersion Value="2"/>
       <Modes Count="0"/>
     </RunParams>
-    <RequiredPackages Count="2">
-      <Item1>
-        <PackageName Value="bs_SynEdit"/>
-      </Item1>
-      <Item2>
-        <PackageName Value="adLCL"/>
-      </Item2>
-    </RequiredPackages>
-    <Units Count="5">
+    <Units Count="1">
       <Unit0>
-        <Filename Value="Oberon.ppr"/>
+        <Filename Value="AST.ppr"/>
         <IsPartOfProject Value="True"/>
       </Unit0>
-      <Unit1>
-        <Filename Value="win\modWinMain.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="winMain"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-      </Unit1>
-      <Unit2>
-        <Filename Value="win\modWinTagGet.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="winTagGet"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-      </Unit2>
-      <Unit3>
-        <Filename Value="mod\modCoord.pas"/>
-        <IsPartOfProject Value="True"/>
-      </Unit3>
-      <Unit4>
-        <Filename Value="mod\modTag.pas"/>
-        <IsPartOfProject Value="True"/>
-      </Unit4>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
     <Version Value="11"/>
     <PathDelim Value="\"/>
     <Target>
-      <Filename Value="Oberon"/>
+      <Filename Value="AST"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <OtherUnitFiles Value="win;mod"/>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Parsing>
@@ -102,20 +69,17 @@
       <TargetOS Value="win64"/>
     </CodeGeneration>
     <Linking>
-      <Debugging>
-        <GenerateDebugInfo Value="False"/>
-        <UseLineInfoUnit Value="False"/>
-      </Debugging>
       <LinkSmart Value="True"/>
       <Options>
-        <Win32>
-          <GraphicApplication Value="True"/>
-        </Win32>
+        <ExecutableType Value="Library"/>
       </Options>
     </Linking>
     <Other>
+      <Verbosity>
+        <ShowCompProc Value="True"/>
+      </Verbosity>
       <ExecuteAfter>
-        <Command Value="D:\coding\github.com\pasOC\pack_oc.bat"/>
+        <Command Value="D:\coding\github.com\pasOC\AST_dll\copy_ast.bat"/>
       </ExecuteAfter>
     </Other>
   </CompilerOptions>

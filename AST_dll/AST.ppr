@@ -1,0 +1,14 @@
+LIBRARY AST;
+{ Проект представляет собой динамическую библиотеку
+для построения AST на Обероне}
+{$mode objfpc}{$H+}
+
+USES
+   Classes
+   { you can add units after this };
+
+{$R *.res}
+
+BEGIN
+END.
+

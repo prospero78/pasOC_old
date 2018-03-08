@@ -4,7 +4,7 @@
     <PathDelim Value="\"/>
     <Version Value="11"/>
     <BuildModes Active="Default"/>
-    <Units Count="8">
+    <Units Count="9">
       <Unit0>
         <Filename Value="Oberon.ppr"/>
         <IsPartOfProject Value="True"/>
@@ -27,30 +27,10 @@
         <LoadedDesigner Value="True"/>
       </Unit1>
       <Unit2>
-        <Filename Value="C:\codetyphon\typhon\components\pl_ExControls\source\TplMemoUnit.pas"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="10"/>
-        <UsageCount Value="8"/>
-      </Unit2>
-      <Unit3>
-        <Filename Value="C:\codetyphon\typhon\components\pl_KControls\source\kmemo.pas"/>
-        <UnitName Value="KMemo"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="253"/>
-        <UsageCount Value="8"/>
-      </Unit3>
-      <Unit4>
-        <Filename Value="C:\codetyphon\typhon\lcl\forms.pp"/>
-        <UnitName Value="Forms"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="615"/>
-        <CursorPos X="15" Y="629"/>
-        <UsageCount Value="8"/>
-      </Unit4>
-      <Unit5>
         <Filename Value="win\modWinTagGet.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="winTagGet"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="1"/>
         <TopLine Value="19"/>
@@ -58,8 +38,8 @@
         <UsageCount Value="25"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
-      </Unit5>
-      <Unit6>
+      </Unit2>
+      <Unit3>
         <Filename Value="mod\modCoord.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="2"/>
@@ -67,8 +47,8 @@
         <CursorPos X="24" Y="34"/>
         <UsageCount Value="23"/>
         <Loaded Value="True"/>
-      </Unit6>
-      <Unit7>
+      </Unit3>
+      <Unit4>
         <Filename Value="mod\modTag.pas"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
@@ -77,7 +57,35 @@
         <CursorPos X="13" Y="39"/>
         <UsageCount Value="22"/>
         <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="C:\codetyphon\typhon\components\pl_ExControls\source\TplMemoUnit.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="10"/>
+        <UsageCount Value="8"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="C:\codetyphon\typhon\components\pl_KControls\source\kmemo.pas"/>
+        <UnitName Value="KMemo"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="253"/>
+        <UsageCount Value="8"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="C:\codetyphon\typhon\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="615"/>
+        <CursorPos X="15" Y="629"/>
+        <UsageCount Value="8"/>
       </Unit7>
+      <Unit8>
+        <Filename Value="C:\Users\Walera\Desktop\Armored Warfare - Проект Армата.url"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="12" Y="4"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit8>
     </Units>
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
