@@ -4,13 +4,14 @@
     <PathDelim Value="\"/>
     <Version Value="11"/>
     <BuildModes Active="Default"/>
-    <Units Count="9">
+    <Units Count="10">
       <Unit0>
         <Filename Value="Oberon.ppr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="4"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
         <TopLine Value="4"/>
-        <CursorPos X="74" Y="18"/>
+        <CursorPos X="34" Y="10"/>
         <UsageCount Value="41"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -42,21 +43,18 @@
       <Unit3>
         <Filename Value="mod\modCoord.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="18"/>
         <CursorPos X="5" Y="37"/>
         <UsageCount Value="23"/>
-        <Loaded Value="True"/>
       </Unit3>
       <Unit4>
         <Filename Value="mod\modTag.pas"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="3"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="26"/>
         <CursorPos X="5" Y="45"/>
         <UsageCount Value="22"/>
-        <Loaded Value="True"/>
       </Unit4>
       <Unit5>
         <Filename Value="C:\codetyphon\typhon\components\pl_ExControls\source\TplMemoUnit.pas"/>
@@ -86,8 +84,14 @@
         <UsageCount Value="10"/>
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit8>
+      <Unit9>
+        <Filename Value="AST_dll\AST.ppr"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit9>
     </Units>
-    <JumpHistory Count="30" HistoryIndex="29">
+    <JumpHistory Count="19" HistoryIndex="18">
       <Position1>
         <Filename Value="win\modWinTagGet.pas"/>
         <Caret Line="27" Column="22" TopLine="13"/>
@@ -164,50 +168,6 @@
         <Filename Value="win\modWinTagGet.pas"/>
         <Caret Line="59" Column="4" TopLine="45"/>
       </Position19>
-      <Position20>
-        <Filename Value="mod\modCoord.pas"/>
-        <Caret Line="13" Column="9"/>
-      </Position20>
-      <Position21>
-        <Filename Value="mod\modCoord.pas"/>
-        <Caret Line="28" Column="20" TopLine="12"/>
-      </Position21>
-      <Position22>
-        <Filename Value="mod\modTag.pas"/>
-        <Caret Line="21" Column="3" TopLine="6"/>
-      </Position22>
-      <Position23>
-        <Filename Value="mod\modTag.pas"/>
-        <Caret Line="28" Column="6" TopLine="9"/>
-      </Position23>
-      <Position24>
-        <Filename Value="mod\modTag.pas"/>
-        <Caret Line="43" Column="6" TopLine="25"/>
-      </Position24>
-      <Position25>
-        <Filename Value="mod\modTag.pas"/>
-        <Caret Line="20" Column="33" TopLine="5"/>
-      </Position25>
-      <Position26>
-        <Filename Value="mod\modTag.pas"/>
-        <Caret Line="37" Column="31" TopLine="24"/>
-      </Position26>
-      <Position27>
-        <Filename Value="mod\modTag.pas"/>
-        <Caret Line="20" Column="41" TopLine="6"/>
-      </Position27>
-      <Position28>
-        <Filename Value="mod\modTag.pas"/>
-        <Caret Line="34" Column="33" TopLine="24"/>
-      </Position28>
-      <Position29>
-        <Filename Value="mod\modCoord.pas"/>
-        <Caret Line="11" Column="24"/>
-      </Position29>
-      <Position30>
-        <Filename Value="mod\modTag.pas"/>
-        <Caret Line="10" Column="12" TopLine="26"/>
-      </Position30>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>

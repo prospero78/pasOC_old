@@ -116,6 +116,7 @@
     <Other>
       <ExecuteAfter>
         <Command Value="D:\coding\github.com\pasOC\pack_oc.bat"/>
+        <CompileReasons Compile="False" Run="False"/>
       </ExecuteAfter>
     </Other>
   </CompilerOptions>
