@@ -9,7 +9,7 @@
         <Filename Value="Oberon.ppr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <EditorIndex Value="3"/>
+        <EditorIndex Value="2"/>
         <TopLine Value="4"/>
         <CursorPos X="15" Y="10"/>
         <UsageCount Value="41"/>
@@ -82,9 +82,8 @@
       </Unit8>
       <Unit9>
         <Filename Value="AST_dll\AST.ppr"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="-1"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit9>
     </Units>
     <JumpHistory Count="19" HistoryIndex="18">
